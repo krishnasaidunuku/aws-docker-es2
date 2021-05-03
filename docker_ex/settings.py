@@ -25,7 +25,7 @@ SECRET_KEY = 'n&_1+p9y@_3u_@-d#gon461j+gpqne(hx4i&aec8*lxwdy7ed*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'docker_app'
 ]
 
 MIDDLEWARE = [
